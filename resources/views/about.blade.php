@@ -21,14 +21,14 @@
     <p>You are seeing the information above because you are logged in as an administrator.</p>
     @endif
 
-    <p>{{env('APP_NAME')}} is powered by Polr 2, an open source, minimalist link shortening platform.
-        Learn more at <a href='https://github.com/Cydrobolt/polr'>its Github page</a> or its <a href="//project.polr.me">project site</a>.
-        <br />Polr is licensed under the GNU GPL License.
+    <p>{{env('APP_NAME')}}是由Adam Yi搭建的模联专用短链接服务，永久免费。其使用经修改的Polr 2，一款开源的短链接生成平台。如您在使用过程中遇到任何问题，请联系xuan@yiad.am。
+        <br />Polr is licensed under the GNU GPL License. Visit <a href="https://github.com/adamyi/MUNLink">GitHub</a> page.
     </p>
 </div>
-<a href='#' class='btn btn-success license-btn'>More Information</a>
+<a href='#' class='btn btn-success license-btn'>GNU GPL License</a>
 <pre class="license" id="gpl-license">
 Copyright (C) 2013-2016 Chaoyi Zha
+Modified by Adam Yi
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License

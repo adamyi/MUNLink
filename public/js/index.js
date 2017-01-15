@@ -24,18 +24,18 @@ $(function() {
         $('#link-availability-status').html('<span><i class="fa fa-spinner"></i> Loading</span>');
         request.done(function(msg) {
             if (msg == 'unavailable') {
-                $('#link-availability-status').html(' <span style="color:red"><i class="fa fa-ban"></i> Already in use</span>');
+                $('#link-availability-status').html(' <span style="color:red"><i class="fa fa-ban"></i> 已用</span>');
             } else if (msg == 'available') {
-                $('#link-availability-status').html('<span style="color:green"><i class="fa fa-check"></i> Available</span>');
+                $('#link-availability-status').html('<span style="color:green"><i class="fa fa-check"></i> 可用</span>');
             } else if (msg == 'invalid') {
-                $('#link-availability-status').html('<span style="color:orange"><i class="fa fa-exclamation-triangle"></i> Invalid Custom URL Ending</span>');
+                $('#link-availability-status').html('<span style="color:orange"><i class="fa fa-exclamation-triangle"></i> 非法结尾</span>');
             } else {
-                $('#link-availability-status').html(' <span style="color:red"><i class="fa fa-exclamation-circle"></i> An error occured. Try again</span>' + msg);
+                $('#link-availability-status').html(' <span style="color:red"><i class="fa fa-exclamation-circle"></i> 发生错误，请重试</span>' + msg);
             }
         });
 
         request.fail(function(jqXHR, textStatus) {
-            $('#link-availability-status').html(' <span style="color:red"><i class="fa fa-exclamation-circle"></i> An error occured. Try again</span>' + textstatus);
+            $('#link-availability-status').html(' <span style="color:red"><i class="fa fa-exclamation-circle"></i> 发生错误，请重试</span>' + textstatus);
         });
     });
     min = 1;
@@ -54,10 +54,10 @@ $(function() {
     function changeTips(tcase) {
         switch (tcase) {
             case 1:
-                setTip('Create an account to keep track of your links');
+                setTip('欢迎访问MUNPANEL报名会议');
                 break;
             case 2:
-                setTip('Did you know you can change the URL ending by clicking on "Link Options"?');
+                setTip('你知道点击「自定义」可以自行输入短链地址么？');
                 i = 1;
                 break;
         }

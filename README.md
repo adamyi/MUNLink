@@ -2,6 +2,8 @@
 
 :aerial_tramway: A modern, minimalist, and lightweight URL shortener.
 
+This is the running version of MUNLink (https://munl.ink), a URL shortener for Model UN conferences. It is modified by Adam Yi based on the original polr.
+
 [![GitHub license](https://img.shields.io/badge/license-GPLv2%2B-blue.svg)]() 
 [![Builds status](https://travis-ci.org/cydrobolt/polr.svg)](https://travis-ci.org/cydrobolt/polr) 
 [![Docs](https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat)](http://polr.readthedocs.org/en/latest/)

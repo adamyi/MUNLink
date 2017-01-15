@@ -21,9 +21,9 @@ jQuery.fn.clearForm = function() {
 };
 
 // Output helpful console message
-console.log('%cPolr', 'font-size:5em;color:green');
-console.log('%cNeed help? Open a ticket: https://github.com/cydrobolt/polr', 'color:blue');
-console.log('%cDocs: https://docs.polr.me', 'color:blue');
+console.log('%cPolr - MUNLink', 'font-size:5em;color:green');
+console.log('%c需要帮助？请联系xuan@yiad.am', 'color:blue');
+console.log('%cMUNLink是由Adam Yi搭建的模联专用短链接服务，使用修改过的Polr，永久免费', 'color:grey');
 
 // Set up Angular module
 var polr = angular.module('polr',[]);
